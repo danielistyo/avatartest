@@ -1,0 +1,29 @@
+{
+  "name": "testavatar",
+  "version": "1.0.0",
+  "license": "MIT",
+  "dependencies": {
+    "@emotion/css": "^11.10.0",
+    "@mekari/pixel": "^0.7.22",
+    "@vue/cli-plugin-babel": "^5.0.8",
+    "vue": "^2.6.14"
+  },
+  "scripts": {
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "serve": "vue-cli-service serve"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-eslint": "^5.0.8",
+    "@vue/cli-service": "^5.0.8",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^8.23.0",
+    "eslint-plugin-vue": "^9.4.0",
+    "vue-template-compiler": "^2.7.10"
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  }
+}
